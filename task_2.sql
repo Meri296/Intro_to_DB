@@ -1,6 +1,9 @@
 -- File: task_2.sql
 
--- Select the database
+-- Ensure the database exists before creating tables
+CREATE DATABASE IF NOT EXISTS alx_book_store;
+
+-- Use the database
 USE alx_book_store;
 
 -- Create AUTHORS table
